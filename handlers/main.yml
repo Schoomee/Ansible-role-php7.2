@@ -1,0 +1,4 @@
+---
+# handlers file for php
+- name: restart php7.2
+  service: name=php7.2-fpm.service state=restarted enabled=yes

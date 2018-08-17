@@ -1,0 +1,16 @@
+galaxy_info:
+  author: Johan Dubois
+  description: Install PHP 7.2 for Debian Stretch and CentOS 7
+  company: www.agysoft.fr 
+  license: GPLv3
+  min_ansible_version: 2.4
+  github_branch: master
+  platforms:
+  - name: Debian
+    versions:
+    - Stretch
+  - name: CentOS
+    versions:
+    - 7
+  galaxy_tags: 
+    - php 7
